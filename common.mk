@@ -405,6 +405,11 @@ PRODUCT_COPY_FILES += \
 # Shipping API
 PRODUCT_SHIPPING_API_LEVEL := 30
 
+# RealmeParts
+PRODUCT_PACKAGES += \
+    RealmeParts \
+	parts.rc
+
 # Soong namespaces
 PRODUCT_SOONG_NAMESPACES += \
     $(LOCAL_PATH) \
