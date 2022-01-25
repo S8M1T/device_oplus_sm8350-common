@@ -1,1 +1,4 @@
+add_hwservice(hal_nfc_default, nxpese_hwservice)
+add_hwservice(hal_nfc_default, nxpnfc_hwservice)
 allow hal_nfc_default nfc_vendor_data_file:dir { search write };
+

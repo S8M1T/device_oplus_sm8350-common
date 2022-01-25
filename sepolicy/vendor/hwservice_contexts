@@ -16,3 +16,6 @@ vendor.oplus.hardware.orms::IOrmsHalProxy    u:object_r:vendor_hal_orms_hwservic
 vendor.oplus.hardware.appradio::IOplusAppRadio    u:object_r:hal_telephony_hwservice:s0
 vendor.oplus.hardware.ims::IOplusImsRadio         u:object_r:hal_telephony_hwservice:s0
 vendor.oplus.hardware.radio::IOplusRadio          u:object_r:hal_telephony_hwservice:s0
+# NFC
+vendor.nxp.nxpese::INxpEse                                              u:object_r:nxpese_hwservice:s0
+vendor.nxp.nxpnfc::INxpNfc                                              u:object_r:nxpnfc_hwservice:s0

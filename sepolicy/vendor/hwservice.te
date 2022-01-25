@@ -1,2 +1,4 @@
 # ORMS
 type vendor_hal_orms_hwservice, hwservice_manager_type, protected_hwservice;
+type nxpese_hwservice, hwservice_manager_type;
+type nxpnfc_hwservice, hwservice_manager_type;
