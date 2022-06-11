@@ -352,9 +352,7 @@ PRODUCT_PACKAGES += \
     OPlusSettingsResCommon \
     OPlusWifiResCommon \
     WifiResTarget \
-    NotchBarKiller \
-    SettingsLibOverlay \
-    SystemUIOverlay
+    NotchBarKiller
 
 # Partitions
 PRODUCT_USE_DYNAMIC_PARTITIONS := true
