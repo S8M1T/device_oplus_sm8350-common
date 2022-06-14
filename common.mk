@@ -198,11 +198,7 @@ PRODUCT_COPY_FILES += \
 # Gatekeeper
 PRODUCT_PACKAGES += \
     android.hardware.gatekeeper@1.0.vendor
-
-# GApps permissions
-PRODUCT_COPY_FILES += \
- $(LOCAL_PATH)/configs/privapp-permissions-gapp.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/privapp-permissions-gapp.xml
-
+    
 # GPS
 PRODUCT_PACKAGES += \
     android.hardware.gnss.measurement_corrections@1.1.vendor \
@@ -508,8 +504,8 @@ PRODUCT_PACKAGES += \
     libnl \
     libwfdaac_vendor
 
-PRODUCT_BOOT_JARS += \
-    WfdCommon
+#PRODUCT_BOOT_JARS += \
+#    WfdCommon
 
 # Inherit from the proprietary files makefile.
 $(call inherit-product, vendor/oplus/sm8350-common/sm8350-common-vendor.mk)
